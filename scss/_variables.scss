@@ -1,0 +1,32 @@
+//palette
+
+$dark-one : #0D1B2A;
+$mouse: #E0E1DD;
+$main-red: #c70a0a;
+$pallet-blue-1: #1B263B;
+$pallet-blue-2: #415A77;
+$pallet-blue-3: #778DA9;
+
+$fw-600 : 600;
+
+$custom-theme-colors : (
+     "mouse" : $mouse,
+     "pallet-blue-1" :$pallet-blue-1,
+     "pallet-blue-2" :$pallet-blue-2,
+     "pallet-blue-3" :$pallet-blue-3,
+     "dark-one" :$dark-one,
+     "main-red" : $main-red);
+
+
+$theme-colors: map.merge($custom-theme-colors, $theme-colors);
+
+// reparer le bug de bootstrap sur les bg et le text
+@each $key, $val in $custom-theme-colors {
+     .bg-#{$key} {
+          background-color: $val !important;
+     }
+
+     .text-#{$key} {
+          color: $val !important;
+     }
+    }
