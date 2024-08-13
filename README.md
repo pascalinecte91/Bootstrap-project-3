@@ -1,4 +1,4 @@
-# Entraînement Projet 3 - Utilisation de Bootstrap
+# Entraînement Projet 3 - Utilisation de Bootstrap   IN PROGRESS
 
 ## Technologies utilisées
 
@@ -56,7 +56,7 @@
 
 | Nom de la Couleur    | Code Hex   | Exemple                   |
 |----------------------|------------|---------------------------|
-| Dark One             | `#0D1B2A`  | ![#0D1B2A](https://via.placeholder.com/20/0D1B2A/FFFFFF?text=+) |
+| Dark One             | `#343A40`  | ![#343A40](https://via.placeholder.com/20/343A40/FFFFFF?text=+) |
 | Mouse                | `#E0E1DD`  | ![#E0E1DD](https://via.placeholder.com/20/E0E1DD/FFFFFF?text=+) |
 | Main Red             | `#c70a0a`  | ![#c70a0a](https://via.placeholder.com/20/c70a0a/FFFFFF?text=+) |
 | Pallet Blue 1        | `#1B263B`  | ![#1B263B](https://via.placeholder.com/20/1B263B/FFFFFF?text=+) |
