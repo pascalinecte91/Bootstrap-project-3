@@ -78,6 +78,10 @@
   transform: scaleX(1);
 }
 
+#navbarNav {
+  font-size: 20px;
+}
+
 .banner {
   height: 600px;
   overflow: hidden;
@@ -99,6 +103,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.section-border {
+  border-top: 1px solid #000;
+  padding: 5% 0;
+  margin: 2% 0;
 }
 
 body {
@@ -4152,7 +4163,7 @@ textarea.form-control-lg {
 }
 .nav-underline .nav-link.active,
 .nav-underline .show > .nav-link {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--bs-nav-underline-link-active-color);
   border-bottom-color: currentcolor;
 }

@@ -1,55 +1,73 @@
 .montserrat-font {
-    font-family: "Montserrat", sans-serif;
-  }
-  .kaushan-font{
-    font-family: "Kaushan Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Montserrat", sans-serif;
+}
 
-  .main-nav a{
-    position: relative;
-    display: inline-block; //permet d'avoir des éléments qui sont sur la même ligne
+.kaushan-font {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+//nav
+.main-nav a {
+  position: relative;
+  display: inline-block; //permet d'avoir des éléments qui sont sur la même ligne
 }
 
 // animation surlignee
 // debute ou à gauche ou à droite ou par le centre
 .main-nav a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    right: 0;
-    background-color: $pallet-blue-2;
-    transition: transform 0.2s ease-out;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: $pallet-blue-2;
+  transition: transform 0.2s ease-out;
 }
+
 .main-nav a:hover::after {
-    transform: scaleX(1);
-    //transform-origin: bottom left;
+  transform: scaleX(1);
+  //transform-origin: bottom left;
 }
- .banner {
+
+#navbarNav {
+  font-size: 20px;
+}
+// Header
+
+.banner {
   height: 600px;
   overflow: hidden;
- }
+}
 
-.banner img{
+.banner img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: 30% 30%;
 }
+
 @media screen and (max-width: 770px) {
   .banner img {
-  object-position: 70% 30%;
-}
+    object-position: 70% 30%;
+  }
 }
 
 .center-content {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+ 
 }
 
-$fw-bold: 600;
+.section-border {
+  border-top: 1px solid #000;
+  padding: 5% 0;
+  margin: 2% 0;
+  
+  
+}
