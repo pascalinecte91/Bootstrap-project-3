@@ -102,16 +102,6 @@
   margin: 2% 0;
 }
 
-.parallax {
-  background-image: url(/ressources/start.jpeg);
-  min-height: 400px;
-  position: relative;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #fff;
-}
-
 .fontawesome a {
   color: #003366;
 }

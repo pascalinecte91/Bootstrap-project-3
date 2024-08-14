@@ -19,8 +19,7 @@
 - [Utilisation](#utilisation)
 - [Palette de Couleurs](#palette-de-couleurs)
 - [Typographie](#typographie)
-- [Contributions](#contributions)
-- [Licence](#licence)
+
 
 ## Aperçu
 
