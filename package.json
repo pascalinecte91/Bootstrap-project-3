@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "sass scss/main.scss styles/raw/style.css --watch"
+    "sass": "sass scss/main.scss styles/raw/style.css --watch",
+    "purgecss": "purgecss --css styles/raw/style.css --content index.html scripts/*.js -o styles/cleaned/accueil.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "purgecss": "^6.0.0"
   }
 }

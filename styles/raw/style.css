@@ -47,16 +47,6 @@
   color: #c70a0a !important;
 }
 
-.montserrat-font {
-  font-family: "Montserrat", sans-serif;
-}
-
-.kaushan-font {
-  font-family: "Kaushan Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .main-nav a {
   position: relative;
   display: inline-block;
@@ -67,10 +57,10 @@
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 1px;
   bottom: 0;
   right: 0;
-  background-color: #415A77;
+  background-color: #E0E1DD;
   transition: transform 0.2s ease-out;
 }
 
@@ -143,6 +133,16 @@ body {
   padding: 0;
   height: 100vh;
   background: #f1f1f1;
+}
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.kaushan-font {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*!

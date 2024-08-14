@@ -1,4 +1,4 @@
-# Entraînement Projet 3 - Utilisation de Bootstrap   IN PROGRESS
+# Entraînement Projet 3 - Utilisation de Bootstrap 
 
 ## Technologies utilisées
 
@@ -28,10 +28,9 @@
 
 ## Fonctionnalités
 
-- Mise en page réactive avec Bootstrap
+- Mise en page réactive avec Bootstrap v.5
 - Utilisation de SCSS pour les styles personnalisés
 - Palette de couleurs définie pour une cohérence visuelle
-- Typographie améliorée avec Google Fonts
 
 ## Prérequis
 
@@ -46,11 +45,15 @@
 4. Installez Bootstrap avec `npm install bootstrap`.
 5. Installez SCSS globalement avec `npm install -g sass`.
 
+#### purgecss 
+- installer : npm i purgecss 
+- lancer : Vous pouvez consulter le fichier `package.json` [ici](./package.json).
+
+
 ## Utilisation
 
-1. Développez votre projet en ajoutant des fichiers SCSS dans le dossier approprié.
-2. Compilez les fichiers SCSS en CSS avec `sass --watch scss:css`.
-3. Personnalisez les styles dans `style.scss` et assurez-vous de lier le fichier CSS compilé dans votre HTML.
+1. Compilez les fichiers SCSS en CSS avec `sass --watch scss:css`.
+2. Personnalisez les styles dans `style.scss` et assurez-vous de lier le fichier CSS compilé dans votre HTML.
 
 ## Palette de Couleurs
 
